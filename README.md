@@ -6,4 +6,4 @@ The scripts where developed in VS-Code using the Julia extension. If you do not 
 
 ## Usage
 In my setup, the scripts are executed by the __caller.jl__ file. This caller then executes the script in a module-like fashion. 
-As a result, the script 
+As a result, every execution is made on a "fresh" Julia workspace - without any previous variables beeing stored.
